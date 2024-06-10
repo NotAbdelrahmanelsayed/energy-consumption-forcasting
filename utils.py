@@ -67,9 +67,6 @@ def plot_historical_and_predicted_data(df_combined, num_predictions):
     # Slice the DataFrame to focus on the last four years and forecasted data
     df_focus = df_combined[focus_start_date:]
 
-    # Ensure plotting within Jupyter Notebook
-    %matplotlib inline
-
     # Use seaborn style
     sns.set(style='darkgrid')
 
